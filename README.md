@@ -50,7 +50,7 @@ AutoSTAT，致力于成为用户数据分析的 copilot 。
    2. **环境配置**
 
    ```bash
-   conda create --name autostat
+   conda create --name autostat python=3.12
    conda activate autostat
    ```
 
