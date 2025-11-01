@@ -1,7 +1,7 @@
 import toml
 from pathlib import Path
 
-# 我们把 secrets 放在项目根目录下的 .streamlit 文件夹
+# 我们把 secrets 放在项目 utils目录下的 .streamlit 文件夹
 BASE = Path(__file__).parent
 SECRETS_DIR  = BASE / ".streamlit"
 SECRETS_FILE = SECRETS_DIR / "secrets.toml"
